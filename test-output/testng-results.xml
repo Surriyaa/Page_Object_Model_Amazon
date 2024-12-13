@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T15:00:11 IST" name="Default Suite" finished-at="2024-12-12T15:01:57 IST" duration-ms="106137">
+    <groups>
+    </groups>
+    <test started-at="2024-12-12T15:00:11 IST" name="FreeCRM" finished-at="2024-12-12T15:01:57 IST" duration-ms="106137">
+      <class name="com.amazon.qa.testcases.ReturnsAndOrdersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:11 IST" name="setUp" finished-at="2024-12-12T15:00:30 IST" duration-ms="19158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="returnAndOrdersTitleTest()[pri:1, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:30 IST" name="returnAndOrdersTitleTest" finished-at="2024-12-12T15:00:32 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnAndOrdersTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:32 IST" name="tearDown" finished-at="2024-12-12T15:00:32 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:32 IST" name="setUp" finished-at="2024-12-12T15:00:52 IST" duration-ms="19496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="yourOrdersTest()[pri:2, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="yourOrdersTest" finished-at="2024-12-12T15:00:52 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourOrdersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="tearDown" finished-at="2024-12-12T15:00:52 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="setUp" finished-at="2024-12-12T15:01:09 IST" duration-ms="17360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyAgainTitleTest()[pri:3, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:09 IST" name="buyAgainTitleTest" finished-at="2024-12-12T15:01:12 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAgainTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:12 IST" name="tearDown" finished-at="2024-12-12T15:01:12 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:12 IST" name="setUp" finished-at="2024-12-12T15:01:32 IST" duration-ms="19385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelledOrdersUrlTest()[pri:4, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:32 IST" name="cancelledOrdersUrlTest" finished-at="2024-12-12T15:01:34 IST" duration-ms="1889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelledOrdersUrlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:34 IST" name="tearDown" finished-at="2024-12-12T15:01:34 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:34 IST" name="setUp" finished-at="2024-12-12T15:01:57 IST" duration-ms="22583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchPageTest()[pri:5, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:57 IST" name="searchPageTest" finished-at="2024-12-12T15:01:57 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:57 IST" name="tearDown" finished-at="2024-12-12T15:01:57 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.ReturnsAndOrdersTest -->
+    </test> <!-- FreeCRM -->
+  </suite> <!-- Default Suite -->
+</testng-results>
