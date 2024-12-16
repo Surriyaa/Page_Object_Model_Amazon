@@ -1,6 +1,5 @@
 package com.amazon.qa.base;
 
-import com.amazon.qa.util.WebEventListener;
 import com.amazon.qa.util.TestUtil;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -20,14 +19,12 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static WebDriver driver;
     public static Properties prop;
-    public static EventFiringDecorator<WebDriver> e_driver;
-    public static WebEventListener eventListener;
 
     // Constructor to load the config properties
     public TestBase() {
         try {
             prop = new Properties();
-            FileInputStream fis = new FileInputStream("C:\\Users\\ASUS\\IdeaProjects\\FreeCRM\\src\\main\\java\\com\\amazon\\qa\\config\\config.properties");
+            FileInputStream fis = new FileInputStream("C:\\Users\\ASUS\\IdeaProjects\\Amazon\\src\\main\\java\\com\\amazon\\qa\\config\\config.properties");
             prop.load(fis);
         } catch (IOException e) {
             e.printStackTrace(); // It's good to log exceptions here.
@@ -50,7 +47,7 @@ public class TestBase {
             // Load cookies from the JSON file
             try {
                 JSONParser parser = new JSONParser();
-                JSONArray cookiesArray = (JSONArray) parser.parse(new FileReader("\"C:\\Users\\ASUS\\Documents\\cookies.json\""));
+                JSONArray cookiesArray = (JSONArray) parser.parse(new FileReader("C:\\Users\\ASUS\\Documents\\cookies1.json"));
 
                 for (Object obj : cookiesArray) {
                     JSONObject cookieJson = (JSONObject) obj;
@@ -59,14 +56,13 @@ public class TestBase {
                             (String) cookieJson.get("value"),
                             (String) cookieJson.get("domain"),
                             (String) cookieJson.get("path"),
-                            null,
+                            null, // Expiry date
                             Boolean.parseBoolean(cookieJson.get("secure").toString()),
                             Boolean.parseBoolean(cookieJson.get("httpOnly").toString())
                     );
                     driver.manage().addCookie(cookie);
                 }
-                // Refresh the page to apply cookies
-                driver.navigate().refresh();
+                driver.navigate().refresh(); // Apply cookies
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -78,11 +74,6 @@ public class TestBase {
         } else if (browser.equals("firefox")) {
             driver=new FirefoxDriver();
         }
-
-        // Initialize the event listener and register it with the EventFiringDecorator
-        eventListener = new WebEventListener();
-        e_driver = new EventFiringDecorator<>(eventListener);
-        driver = e_driver.decorate(driver);
 
         // Browser window settings and timeouts
         driver.manage().window().maximize();

@@ -18,7 +18,7 @@ public class SearchPage extends TestBase {
     @FindBy(xpath = "//span[@class='a-color-state a-text-bold']")
     WebElement searchResultsText;
 
-    @FindBy(xpath = "//div[@data-cel-widget='search_result_2']")
+    @FindBy(xpath = "//div[@data-cel-widget='search_result_2']4")
     WebElement firstProduct;
 
     @FindBy(xpath = "//div[@data-cel-widget='search_result_2']")

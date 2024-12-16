@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+
 public class SearchPageTest extends TestBase {
 
     SearchPage searchPage;
@@ -64,12 +65,12 @@ public class SearchPageTest extends TestBase {
     @DataProvider(name = "provideTestData")
     public Object[][] provideTestData() {
         // Fetch test data dynamically from the Excel sheet
-        String sheetName = "searchData"; // Set your sheet name
+        String sheetName = "searchData";
         Object[][] data = TestUtil.getTestData(sheetName); // Fetch all data from the sheet
         return data; // Return the data to the test method
     }
 
-    @Test(dataProvider = "provideTestData")
+    @Test(dataProvider = "provideTestData",priority = 6)
     public void testSearchProduct(String productName) {
         // Step 1: Search for a product
         System.out.println("Searching for: " + productName);

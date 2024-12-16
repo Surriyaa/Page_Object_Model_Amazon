@@ -1,73 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T15:00:11 IST" name="Default Suite" finished-at="2024-12-12T15:01:57 IST" duration-ms="106137">
+  <suite started-at="2024-12-16T17:54:05 IST" name="Amazon Web Application Test Automation Test Suite" finished-at="2024-12-16T17:55:51 IST" duration-ms="105929">
     <groups>
     </groups>
-    <test started-at="2024-12-12T15:00:11 IST" name="FreeCRM" finished-at="2024-12-12T15:01:57 IST" duration-ms="106137">
-      <class name="com.amazon.qa.testcases.ReturnsAndOrdersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:11 IST" name="setUp" finished-at="2024-12-12T15:00:30 IST" duration-ms="19158" status="PASS">
+    <test started-at="2024-12-16T17:54:05 IST" name="Amazon WebApp Test Cases" finished-at="2024-12-16T17:55:51 IST" duration-ms="105929">
+      <class name="com.amazon.qa.testcases.SearchPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:05 IST" name="setup" finished-at="2024-12-16T17:54:12 IST" duration-ms="7191" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="returnAndOrdersTitleTest()[pri:1, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:30 IST" name="returnAndOrdersTitleTest" finished-at="2024-12-12T15:00:32 IST" duration-ms="1538" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="validateSearchPageTitleTest()[pri:1, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:12 IST" name="validateSearchPageTitleTest" finished-at="2024-12-16T17:54:13 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- returnAndOrdersTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:32 IST" name="tearDown" finished-at="2024-12-12T15:00:32 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:32 IST" name="setUp" finished-at="2024-12-12T15:00:52 IST" duration-ms="19496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="yourOrdersTest()[pri:2, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="yourOrdersTest" finished-at="2024-12-12T15:00:52 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- yourOrdersTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="tearDown" finished-at="2024-12-12T15:00:52 IST" duration-ms="271" status="PASS">
+        </test-method> <!-- validateSearchPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:13 IST" name="tearDown" finished-at="2024-12-16T17:54:13 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:00:52 IST" name="setUp" finished-at="2024-12-12T15:01:09 IST" duration-ms="17360" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:13 IST" name="setup" finished-at="2024-12-16T17:54:27 IST" duration-ms="13605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="buyAgainTitleTest()[pri:3, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:09 IST" name="buyAgainTitleTest" finished-at="2024-12-12T15:01:12 IST" duration-ms="2921" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="isSearchBoxDisplayedTest()[pri:2, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:27 IST" name="isSearchBoxDisplayedTest" finished-at="2024-12-16T17:54:28 IST" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyAgainTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:12 IST" name="tearDown" finished-at="2024-12-12T15:01:12 IST" duration-ms="259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:12 IST" name="setUp" finished-at="2024-12-12T15:01:32 IST" duration-ms="19385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="cancelledOrdersUrlTest()[pri:4, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:32 IST" name="cancelledOrdersUrlTest" finished-at="2024-12-12T15:01:34 IST" duration-ms="1889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cancelledOrdersUrlTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:34 IST" name="tearDown" finished-at="2024-12-12T15:01:34 IST" duration-ms="264" status="PASS">
+        </test-method> <!-- isSearchBoxDisplayedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:28 IST" name="tearDown" finished-at="2024-12-16T17:54:28 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:34 IST" name="setUp" finished-at="2024-12-12T15:01:57 IST" duration-ms="22583" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:28 IST" name="setup" finished-at="2024-12-16T17:54:34 IST" duration-ms="6039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchPageTest()[pri:5, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:57 IST" name="searchPageTest" finished-at="2024-12-12T15:01:57 IST" duration-ms="297" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="searchProductTest()[pri:3, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:34 IST" name="searchProductTest" finished-at="2024-12-16T17:54:38 IST" duration-ms="3666" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@data-cel-widget='search_result_2']4 because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@data-cel-widget='search_result_2']4' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6252c4d7c2267f9730e62b3ca11eb0, findElement {using=xpath, value=//div[@data-cel-widget='search_result_2']4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60477/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da6252c4d7c2267f9730e62b3ca11eb0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@data-cel-widget='search_result_2']4 because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@data-cel-widget='search_result_2']4' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6252c4d7c2267f9730e62b3ca11eb0, findElement {using=xpath, value=//div[@data-cel-widget='search_result_2']4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60477/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da6252c4d7c2267f9730e62b3ca11eb0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at com.amazon.qa.pages.SearchPage.getFirstSearchResult(SearchPage.java:56)
+at com.amazon.qa.testcases.SearchPageTest.searchProductTest(SearchPageTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.ReturnsAndOrdersTest@1dde4cb2]" started-at="2024-12-12T15:01:57 IST" name="tearDown" finished-at="2024-12-12T15:01:57 IST" duration-ms="252" status="PASS">
+        </test-method> <!-- searchProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:38 IST" name="tearDown" finished-at="2024-12-16T17:54:39 IST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.qa.testcases.ReturnsAndOrdersTest -->
-    </test> <!-- FreeCRM -->
-  </suite> <!-- Default Suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:39 IST" name="setup" finished-at="2024-12-16T17:54:47 IST" duration-ms="8766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFirstSearchResultTest()[pri:4, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:47 IST" name="validateFirstSearchResultTest" finished-at="2024-12-16T17:54:51 IST" duration-ms="3830" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@data-cel-widget='search_result_2']4 because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@data-cel-widget='search_result_2']4' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2163456fecae52578bf25a7d3343bc81, findElement {using=xpath, value=//div[@data-cel-widget='search_result_2']4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60575/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2163456fecae52578bf25a7d3343bc81]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@data-cel-widget='search_result_2']4 because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@data-cel-widget='search_result_2']4' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2163456fecae52578bf25a7d3343bc81, findElement {using=xpath, value=//div[@data-cel-widget='search_result_2']4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60575/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2163456fecae52578bf25a7d3343bc81
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at com.amazon.qa.pages.SearchPage.getFirstSearchResult(SearchPage.java:56)
+at com.amazon.qa.testcases.SearchPageTest.validateFirstSearchResultTest(SearchPageTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstSearchResultTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:52 IST" name="tearDown" finished-at="2024-12-16T17:54:52 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:54:52 IST" name="setup" finished-at="2024-12-16T17:55:00 IST" duration-ms="7823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickFirstSearchResultTest()[pri:5, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:00 IST" name="clickFirstSearchResultTest" finished-at="2024-12-16T17:55:05 IST" duration-ms="4991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstSearchResultTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:05 IST" name="tearDown" finished-at="2024-12-16T17:55:05 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:06 IST" name="setup" finished-at="2024-12-16T17:55:11 IST" duration-ms="5556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:6, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:11 IST" name="testSearchProduct" data-provider="provideTestData" finished-at="2024-12-16T17:55:16 IST" duration-ms="4334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:16 IST" name="tearDown" finished-at="2024-12-16T17:55:16 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:16 IST" name="setup" finished-at="2024-12-16T17:55:23 IST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:6, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:23 IST" name="testSearchProduct" data-provider="provideTestData" finished-at="2024-12-16T17:55:28 IST" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hometheater]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:28 IST" name="tearDown" finished-at="2024-12-16T17:55:28 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:28 IST" name="setup" finished-at="2024-12-16T17:55:35 IST" duration-ms="6623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:6, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:35 IST" name="testSearchProduct" data-provider="provideTestData" finished-at="2024-12-16T17:55:38 IST" duration-ms="3513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[air cooler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:38 IST" name="tearDown" finished-at="2024-12-16T17:55:39 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:39 IST" name="setup" finished-at="2024-12-16T17:55:47 IST" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:6, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:47 IST" name="testSearchProduct" data-provider="provideTestData" finished-at="2024-12-16T17:55:51 IST" duration-ms="3688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SearchPageTest@7c729a55]" started-at="2024-12-16T17:55:51 IST" name="tearDown" finished-at="2024-12-16T17:55:51 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.SearchPageTest -->
+    </test> <!-- Amazon WebApp Test Cases -->
+  </suite> <!-- Amazon Web Application Test Automation Test Suite -->
 </testng-results>

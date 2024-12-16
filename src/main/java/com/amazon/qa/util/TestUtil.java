@@ -17,8 +17,8 @@ import static com.amazon.qa.base.TestBase.driver;
 
 public class TestUtil
 {
-    public static long PAGE_LOAD_TIMEOUT=20;
-    public static long IMPLICIT_WAIT_TIMEOUT=20;
+    public static long PAGE_LOAD_TIMEOUT=10;
+    public static long IMPLICIT_WAIT_TIMEOUT=10;
     static Workbook book;
     static Sheet sheet;
 
@@ -48,10 +48,9 @@ public class TestUtil
             e.printStackTrace();
             throw new RuntimeException("Failed to read test data file: " + e.getMessage());
         }}
-    public static void takeScreenshotAtEndOfTest(WebDriver driver) throws IOException {
+    public static String takeScreenshotAtEndOfTest(WebDriver driver,String method) throws IOException {
         // Check if the driver is not null and supports taking screenshots
-        if (driver != null && driver instanceof TakesScreenshot) {
-            // Capture screenshot as a file
+
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
             // Get the current project directory
@@ -62,13 +61,11 @@ public class TestUtil
             if (!screenshotDir.exists()) {
                 screenshotDir.mkdirs();  // Create the directory if it doesn't exist
             }
-
-            // Copy the screenshot file to the specified location
-            FileUtils.copyFile(scrFile, new File(screenshotDir + "/" + System.currentTimeMillis() + ".png"));
-            System.out.println("Screenshot taken: " + screenshotDir + "/" + System.currentTimeMillis() + ".png");
-        } else {
-            System.out.println("Driver does not support screenshots or is null.");
+            String dest=screenshotDir + "/"+method+ + System.currentTimeMillis() + ".png";
+            // Copy the screenshot file to the specified location (src, dest)
+            FileUtils.copyFile(scrFile, new File(dest));
+            return dest;
         }
     }
 
-}
+
