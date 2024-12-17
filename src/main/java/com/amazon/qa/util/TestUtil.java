@@ -50,12 +50,9 @@ public class TestUtil
         }}
     public static String takeScreenshotAtEndOfTest(WebDriver driver,String method) throws IOException {
         // Check if the driver is not null and supports taking screenshots
-
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
             // Get the current project directory
             String currentDir = System.getProperty("user.dir");
-
             // Ensure the "screenshots" directory exists
             File screenshotDir = new File(currentDir + "/screenshots");
             if (!screenshotDir.exists()) {
