@@ -1,0 +1,158 @@
+[2024-12-18 11:35:51] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:35:51] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:35:51] [INFO] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ASUS\IdeaProjects\Amazon\src\main\resources\testNG_sanity.xml
+
+[2024-12-18 11:35:51] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:35:51] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:35:53] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:35:53] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:35:54] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:35:54] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:35:54] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:35:54] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:35:54] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:35:55] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting validateSearchPageTitleTest...
+[2024-12-18 11:35:56] [INFO] com.amazon.qa.pages.SearchPage - SearchPAge title shown Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+[2024-12-18 11:35:56] [INFO] com.amazon.qa.testcases.SearchPageTest - Search Page Title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+[2024-12-18 11:35:56] [INFO] com.amazon.qa.testcases.SearchPageTest - validateSearchPageTitleTest completed successfully.
+[2024-12-18 11:35:56] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:35:57] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:35:57] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:35:57] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:35:58] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:35:58] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:35:59] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting isSearchBoxDisplayedTest...
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.pages.SearchPage - SearchBox display status true
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.testcases.SearchPageTest - Is Search Box Displayed: true
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.testcases.SearchPageTest - isSearchBoxDisplayedTest completed successfully.
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:01] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:02] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:03] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:03] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting searchProductTest...
+[2024-12-18 11:36:04] [INFO] com.amazon.qa.testcases.SearchPageTest - Searching for product: Laptop
+[2024-12-18 11:36:06] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: Laptop
+[2024-12-18 11:36:08] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:08] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:09] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:09] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:09] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:10] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:10] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:11] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting validateFirstSearchResultTest...
+[2024-12-18 11:36:13] [INFO] com.amazon.qa.testcases.SearchPageTest - Searching for product: Headphones
+[2024-12-18 11:36:14] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: Headphones
+[2024-12-18 11:36:16] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:17] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:17] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:17] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:17] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:18] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:18] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:19] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting clickFirstSearchResultTest...
+[2024-12-18 11:36:20] [INFO] com.amazon.qa.testcases.SearchPageTest - Searching for product: Books
+[2024-12-18 11:36:21] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: Books
+[2024-12-18 11:36:22] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:22] [INFO] com.amazon.qa.pages.SearchPage - clicking on the first product link
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.pages.SearchPage - SearchPAge title shown Amazon.in : Books
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.testcases.SearchPageTest - New Page Title after clicking: Amazon.in : Books
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.testcases.SearchPageTest - clickFirstSearchResultTest completed successfully.
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.testcases.SearchPageTest - Fetching test data from Excel sheet: searchData
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.util.TestUtil - Data Driven framework implementation is started
+[2024-12-18 11:36:25] [INFO] com.amazon.qa.util.TestUtil - Loding TESTDATA_SHEET_PATH
+[2024-12-18 11:36:26] [INFO] com.amazon.qa.util.TestUtil - Sheet is assigned
+[2024-12-18 11:36:26] [INFO] com.amazon.qa.util.TestUtil - Data is returned successfully
+[2024-12-18 11:36:26] [INFO] com.amazon.qa.testcases.SearchPageTest - Data fetched successfully. Number of rows: 4
+[2024-12-18 11:36:26] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:26] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:27] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:27] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:28] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting testSearchProduct for product: mobile
+[2024-12-18 11:36:30] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: mobile
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.pages.SearchPage - validateing SearchResults are showing or not
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.testcases.SearchPageTest - Validation Status for Search Results: true
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.testcases.SearchPageTest - testSearchProduct completed successfully for product: mobile
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:33] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:35] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:35] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:36] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:37] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:37] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:37] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:37] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:37] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting testSearchProduct for product: hometheater
+[2024-12-18 11:36:38] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: hometheater
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.pages.SearchPage - validateing SearchResults are showing or not
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.testcases.SearchPageTest - Validation Status for Search Results: true
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.testcases.SearchPageTest - testSearchProduct completed successfully for product: hometheater
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:41] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:42] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:42] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:43] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting testSearchProduct for product: air cooler
+[2024-12-18 11:36:46] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: air cooler
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.pages.SearchPage - validateing SearchResults are showing or not
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.testcases.SearchPageTest - Validation Status for Search Results: true
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.testcases.SearchPageTest - testSearchProduct completed successfully for product: air cooler
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.testcases.SearchPageTest - Initializing the browser and navigating to the search page...
+[2024-12-18 11:36:48] [INFO] com.amazon.qa.base.TestBase - Initializing browser: chrome
+[2024-12-18 11:36:50] [INFO] com.amazon.qa.base.TestBase - ChromeDriver initialized.
+[2024-12-18 11:36:50] [INFO] com.amazon.qa.base.TestBase - Browser window maximized and timeouts set.
+[2024-12-18 11:36:50] [INFO] com.amazon.qa.base.TestBase - Navigated to URL: https://www.amazon.in/
+[2024-12-18 11:36:51] [INFO] com.amazon.qa.base.TestBase - Cookies applied and page refreshed.
+[2024-12-18 11:36:51] [INFO] com.amazon.qa.base.TestBase - Properties file loaded successfully.
+[2024-12-18 11:36:51] [INFO] com.amazon.qa.pages.SearchPage - SearchPage initialized and WebElements are ready.
+[2024-12-18 11:36:51] [INFO] com.amazon.qa.testcases.SearchPageTest - Setup completed successfully.
+[2024-12-18 11:36:51] [INFO] com.amazon.qa.testcases.SearchPageTest - Starting testSearchProduct for product: Tablet
+[2024-12-18 11:36:53] [INFO] com.amazon.qa.pages.SearchPage - Searching a product with name: Tablet
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.pages.SearchPage - product search done
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.pages.SearchPage - validateing SearchResults are showing or not
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.testcases.SearchPageTest - Validation Status for Search Results: true
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.testcases.SearchPageTest - testSearchProduct completed successfully for product: Tablet
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.testcases.SearchPageTest - Closing the browser after test execution...
+[2024-12-18 11:36:56] [INFO] com.amazon.qa.testcases.SearchPageTest - Browser closed successfully.

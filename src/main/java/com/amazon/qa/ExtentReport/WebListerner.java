@@ -1,11 +1,15 @@
 package com.amazon.qa.ExtentReport;
 
 import com.amazon.qa.base.TestBase;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class WebListerner extends TestBase implements ITestListener {
+    private static final Logger log = LogManager.getLogger(WebListerner.class); // Logger instance
+
     @Override
     public void onStart(ITestContext context) {
         System.out.println("Test Execution started...");

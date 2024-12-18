@@ -7,9 +7,7 @@
     </listeners>
     <test name="Amazon WebApp Test Cases">
         <classes>
-
             <class name="com.amazon.qa.testcases.SearchPageTest"></class>
-
         </classes>
     </test>
 </suite>

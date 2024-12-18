@@ -1,0 +1,7 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Parameterized Product Search","4","0","User searches for multiple products using a data provider","0"
+"1","","0","Search Results Validation","0","0","User validates the first search result for a product","0"
+"1","","0","Product Search Validation","0","0","User searches for a product and verifies the results","0"
+"0","","0","Search Page Title Validation","1","0","User navigates to the search page and validates the title","0"
+"0","","0","Product Details Navigation","1","0","User clicks on the first search result and verifies navigation","0"
+"0","","0","Search Box Display Validation","1","0","User validates the presence of the search box","0"

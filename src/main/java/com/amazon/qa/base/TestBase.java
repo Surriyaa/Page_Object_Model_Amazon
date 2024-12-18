@@ -1,11 +1,12 @@
 package com.amazon.qa.base;
 
 import com.amazon.qa.util.TestUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -19,68 +20,79 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static WebDriver driver;
     public static Properties prop;
+    private static final Logger log = LogManager.getLogger(TestBase.class); // Logger instance
 
-    // Constructor to load the config properties
+    // Constructor: Loads configuration properties
     public TestBase() {
         try {
             prop = new Properties();
             FileInputStream fis = new FileInputStream("C:\\Users\\ASUS\\IdeaProjects\\Amazon\\src\\main\\java\\com\\amazon\\qa\\config\\config.properties");
             prop.load(fis);
+            log.info("Properties file loaded successfully.");
         } catch (IOException e) {
-            e.printStackTrace(); // It's good to log exceptions here.
-            throw new RuntimeException("Failed to load config.properties file");
+            log.error("Failed to load config.properties file", e);
+            throw new RuntimeException("Configuration file loading failed.");
         }
     }
 
-    // Initialization method to configure WebDriver and set up the environment
+    // Browser and environment initialization
     public void initialization() {
         String browser = prop.getProperty("browser");
+        log.info("Initializing browser: {}", browser);
 
-        // Choose the browser for WebDriver initialization
-        if (browser.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
-
-            // Open the Amazon website and apply cookies from the JSON file
-            driver.get("https://www.amazon.in");
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-            // Load cookies from the JSON file
-            try {
-                JSONParser parser = new JSONParser();
-                JSONArray cookiesArray = (JSONArray) parser.parse(new FileReader("C:\\Users\\ASUS\\Documents\\cookies1.json"));
-
-                for (Object obj : cookiesArray) {
-                    JSONObject cookieJson = (JSONObject) obj;
-                    Cookie cookie = new Cookie(
-                            (String) cookieJson.get("name"),
-                            (String) cookieJson.get("value"),
-                            (String) cookieJson.get("domain"),
-                            (String) cookieJson.get("path"),
-                            null, // Expiry date
-                            Boolean.parseBoolean(cookieJson.get("secure").toString()),
-                            Boolean.parseBoolean(cookieJson.get("httpOnly").toString())
-                    );
-                    driver.manage().addCookie(cookie);
-                }
-                driver.navigate().refresh(); // Apply cookies
-
-            } catch (Exception e) {
-                e.printStackTrace();
+        try {
+            // Browser selection
+            if (browser.equalsIgnoreCase("chrome")) {
+                driver = new ChromeDriver();
+                log.info("ChromeDriver initialized.");
+            } else if (browser.equalsIgnoreCase("firefox")) {
+                driver = new FirefoxDriver();
+                log.info("FirefoxDriver initialized.");
+            } else {
+                log.error("Unsupported browser: " + browser);
+                throw new RuntimeException("Browser not supported: " + browser);
             }
 
-            // Now you can perform actions without CAPTCHA interruptions
-            driver.get("https://www.amazon.in/gp/cart/view.html");
+            // Apply browser settings
+            driver.manage().window().maximize();
+            driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT_TIMEOUT, TimeUnit.SECONDS);
+            log.info("Browser window maximized and timeouts set.");
 
-        } else if (browser.equals("firefox")) {
-            driver=new FirefoxDriver();
+            // Load cookies and navigate to URL
+            driver.get(prop.getProperty("url"));
+            log.info("Navigated to URL: {}", prop.getProperty("url"));
+            loadCookies();
+            driver.navigate().refresh();
+            log.info("Cookies applied and page refreshed.");
+
+        } catch (Exception e) {
+            log.error("Exception during browser initialization", e);
+            throw new RuntimeException("Browser initialization failed.", e);
         }
+    }
 
-        // Browser window settings and timeouts
-        driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT_TIMEOUT, TimeUnit.SECONDS);
+    // Method to load cookies from a JSON file
+    private void loadCookies() {
+        try {
+            JSONParser parser = new JSONParser();
+            JSONArray cookiesArray = (JSONArray) parser.parse(new FileReader("C:\\Users\\ASUS\\Documents\\cookies1.json"));
 
-        // Open the target URL from the config
-        driver.get(prop.getProperty("url"));
+            for (Object obj : cookiesArray) {
+                JSONObject cookieJson = (JSONObject) obj;
+                Cookie cookie = new Cookie(
+                        (String) cookieJson.get("name"),
+                        (String) cookieJson.get("value"),
+                        (String) cookieJson.get("domain"),
+                        (String) cookieJson.get("path"),
+                        null, // Expiry date
+                        Boolean.parseBoolean(cookieJson.get("secure").toString()),
+                        Boolean.parseBoolean(cookieJson.get("httpOnly").toString())
+                );
+                driver.manage().addCookie(cookie);
+            }
+        } catch (Exception e) {
+            log.error("Error while loading cookies from JSON file.", e);
+        }
     }
 }
